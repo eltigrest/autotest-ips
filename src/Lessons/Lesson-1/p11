@@ -1,0 +1,25 @@
+//const calc = (num1, num2, summ) => {
+//console.log('Sec of wait...')
+//console.log('Your result for', num1, num2)
+//return (summ)
+//
+
+const summ = (num1, num2) => {
+    console.log('Sec of wait...')
+    console.log('Your result for', num1, num2)
+    return (num1 + num2)
+}
+
+console.log('Summa =')
+calc(27, 3, summ)
+console.log(calc)
+
+
+console.log('Raznost =')
+calc(27, 3, razn)
+
+console.log('Multiply =')
+calc(27, 3, multiply)
+
+console.log('Division =')
+calc(27, 3, division)

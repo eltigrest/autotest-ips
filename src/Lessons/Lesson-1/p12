@@ -1,0 +1,8 @@
+console.log('Chetnie')
+for (let i = 0; i <= 100; i = i + 2) {
+    console.log(i)
+}
+console.log('Nechetnie')
+for (let i = 1; i <= 100; i = i + 2) {
+    console.log(i)
+}

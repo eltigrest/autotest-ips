@@ -1,0 +1,14 @@
+const ageValue = (age) => {
+    console.log('You write', age)
+    if (age < 18 && age >= 0) {
+        console.log('Page not for you, baby!')
+    } else if (age >= 18) {
+        console.log('Page for you, adult!')
+    } else {
+        console.log('Wrong age!')
+    }
+}
+
+ageValue(17)
+ageValue(18)
+ageValue(-1)

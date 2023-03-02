@@ -1,0 +1,11 @@
+const age = 18
+console.log('A you adult with ', age ,'?')
+let lage
+lage = age >= 18  ? true : false
+console.log ('Our answer is ', lage)
+
+
+const age2 = 17
+console.log('A you adult with ', age2 ,'?')
+lage = age2 >= 18  ? true : false
+console.log ('Our answer is ', lage)

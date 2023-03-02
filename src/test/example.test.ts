@@ -1,7 +1,8 @@
 describe('test describe', () => {
     it('test it', async () => {
         async function open() {
-            await browser.url(`http://google.com/`)
+            const t: number = 1
+            await browser.url(`http://google.com`)
         }
 
         await open()      

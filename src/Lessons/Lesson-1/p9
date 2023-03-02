@@ -1,0 +1,17 @@
+let showAge = function () {
+
+    let array = [-1, 17, 18]
+    for (const age of array) {
+        console.log('You write for anonimus', age)
+        if (age < 18 && age >= 0) {
+            console.log('Page not for you, baby!')
+        } else if (age >= 18) {
+            console.log('Page for you, adult!')
+        } else {
+            console.log('Wrong age!')
+        }
+    }
+
+}
+
+showAge()

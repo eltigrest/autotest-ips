@@ -1,0 +1,5 @@
+function printSum(a, b) {
+    console.log('Summa=', a + b)
+}
+
+printSum(40, 50)

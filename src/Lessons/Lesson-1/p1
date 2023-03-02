@@ -1,0 +1,5 @@
+const num1 = 1.23
+const num2 = 4.56
+console.log('Summa float 1.23 + 4.56', num1 + num2)
+
+console.log('Summa int 77 + 88', 77 + 88)

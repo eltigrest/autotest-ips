@@ -1,0 +1,16 @@
+let array = [-15, 0, 11, 19, 26]
+
+for (const temp of array) {
+    console.log('My temp = ', temp)
+    if (temp > -10 && temp <= 10) {
+        console.log('Cold')
+    } else if (temp > 10 && temp <= 18) {
+        console.log('Not very Cold')
+    } else if (temp > 18 && temp <= 25) {
+        console.log('Warm')
+    } else if (temp > 25) {
+        console.log('HOT')
+    } else {
+        console.log('Wrong number, in Russia < -10! ')
+    }
+}
