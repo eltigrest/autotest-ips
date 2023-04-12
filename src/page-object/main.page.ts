@@ -1,4 +1,5 @@
 import { ChainablePromiseElement } from 'webdriverio'
+import { Reporter } from '../common/reporter/Reporter'
 
 class MainPage {
     protected browser: WebdriverIO.Browser
@@ -17,10 +18,12 @@ class MainPage {
     }
 
     public getUserLoginText(): Promise<string> {
+        Reporter.addStep('Получаем Login пользователя')
         return this.getUserLogin().getText()
     }
 
     public async openUserMenu(): Promise<void> {
+        Reporter.addStep('Проверяем доступность аватара')
         await this.getUserAvatar().waitForClickable({
             timeoutMsg: 'User avatar was not clickable'
         })

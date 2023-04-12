@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681301607844' stop='1681301619151'>
+    <name>Profile test</name>
+    <title>Profile test</title>
+    <test-cases>
+        <test-case start='1681301607844' status='passed' stop='1681301619150'>
+            <name>Photo should be uploaded in profile</name>
+            <title>Photo should be uploaded in profile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.147'/>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.147'/>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.147'/>
+            </parameters>
+            <steps>
+                <step start='1681301609069' status='passed' stop='1681301609070'>
+                    <name>Подождать отображения поля Login</name>
+                    <title>Подождать отображения поля Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301609098' status='passed' stop='1681301609098'>
+                    <name>Ввести логин eltigrest</name>
+                    <title>Ввести логин eltigrest</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301609186' status='passed' stop='1681301609186'>
+                    <name>Ввести пароль Pilotfelix99</name>
+                    <title>Ввести пароль Pilotfelix99</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301609277' status='passed' stop='1681301609277'>
+                    <name>Подождать отображение кнопки Login</name>
+                    <title>Подождать отображение кнопки Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301609308' status='passed' stop='1681301609308'>
+                    <name>Клик по кнопке залогиниться</name>
+                    <title>Клик по кнопке залогиниться</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301611016' status='passed' stop='1681301611016'>
+                    <name>Проверяем доступность аватара</name>
+                    <title>Проверяем доступность аватара</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301611092' status='passed' stop='1681301611092'>
+                    <name>Получаем Login пользователя</name>
+                    <title>Получаем Login пользователя</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301612493' status='passed' stop='1681301612493'>
+                    <name>Подождать отображения поля для загрузки фото</name>
+                    <title>Подождать отображения поля для загрузки фото</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301612537' status='passed' stop='1681301612538'>
+                    <name>Загрузка фото</name>
+                    <title>Загрузка фото</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301617711' status='passed' stop='1681301617711'>
+                    <name>Подождать отображение кнопки Установить новое изображение</name>
+                    <title>Подождать отображение кнопки Установить новое изображение</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301617744' status='passed' stop='1681301617744'>
+                    <name>Клик по кнопке</name>
+                    <title>Клик по кнопке</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681301619129' status='passed' stop='1681301619129'>
+                    <name>Проверяем смену url загруженного фото</name>
+                    <title>Проверяем смену url загруженного фото</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

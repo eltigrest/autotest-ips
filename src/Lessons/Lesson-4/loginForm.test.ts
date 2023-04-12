@@ -1,5 +1,8 @@
-
+import { LoginPage } from '../page-object/login.page'
+import { MainPage } from '../page-object/main.page'
 import { LOGIN, EMAIL, PASSWORD } from '../../credential'
+import { UserModel, createUserModel } from '../model/user.model'
+import { UserData, userData } from '../data/user.data'
 
 const WRONGPASSWORD = '2345'
 
